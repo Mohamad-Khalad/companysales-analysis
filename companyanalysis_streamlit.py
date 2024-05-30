@@ -56,7 +56,8 @@ if sidebar_var == "PowerBI Dashboard":
     url_img2 = "companysales_jpeg.jpg"
     st.image(url_img2,width=1000)
 elif sidebar_var == "Data Overview":
-    st.markdown("**this project aim to analyze commpany sales behavior using the online dataset and Python analytical functions and frameworks. It involves answering questions about the data through python frameworks.<br> The Data set used for this project is the `Online company sales dataset`, which contain information about company sales, including invoices total amount, product details, and customer IDS.**")
+    st.markdown("**this project aim to analyze commpany sales behavior using the online dataset and Python analytical functions and frameworks. It involves answering questions about the data through python frameworks.**")
+    st.markdown("** The Data set used for this project is the `Online company sales dataset`, which contain information about company sales, including invoices total amount, product details, and customer IDS.**")
     st.dataframe(df.head())
     st.subheader("Show a sample")
     btn2 = st.button("Show me")
