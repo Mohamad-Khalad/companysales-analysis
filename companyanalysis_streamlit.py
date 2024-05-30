@@ -138,7 +138,7 @@ elif sidebar_var == "Author":
     st.image(url_profile,width=500,channels="RGB")
     st.markdown("## :blue[Meet Your Favourite Date Scientist]")
     st.markdown("**- Khaled Shaker : ITI Trainee, Versatile data scientist with a Radiology and medical imaging**")
-    st.markdown("**- background, specializing in tailored machine learning solutions for real problem cases.**  ")
+    st.markdown("**- background, specializing in tailored machine learning solutions for real use cases.**  ")
     st.markdown("**- `Top 5%` graduate in Applied Medical Science Program, with a pre master's degree in medical physics.** ")
     st.markdown("**- Committed to continue learning and innovation, translating complex data into actionable strategies**")
     st.markdown("**- for business growth.**")
