@@ -47,13 +47,13 @@ df = pd.read_csv("company_all_data.csv.csv",encoding= 'iso-8859-1')
 st.title("Company Sales Analysis")
 st.sidebar.header("Sidebar List")
 st.sidebar.markdown("Made with :revolving_hearts: by [Khaled Shaker](https://www.linkedin.com/in/khaledshakerrr/)	")
-url_img1 = "web_imges\sidebarimg.jpeg"
+url_img1 = "sidebarimg.jpeg"
 st.sidebar.image(url_img1)
 sidebar_var = st.sidebar.radio("Select One: ",["Author","Data Overview","EDA","PowerBI Dashboard"]     )
 
 if sidebar_var == "PowerBI Dashboard":
     st.subheader("Company Analysis Dashboard")
-    url_img2 = "web_imges\companysales_jpeg.jpg"
+    url_img2 = "companysales_jpeg.jpg"
     st.image(url_img2,width=1000)
 elif sidebar_var == "Data Overview":
     st.markdown("**this project aim to analyze commpany sales behavior using the online dataset and Python analytical functions and frameworks. It involves answering questions about the data through python frameworks.<br> The Data set used for this project is the `Online company sales dataset`, which contain information about company sales, including invoices total amount, product details, and customer IDS.**")
@@ -134,7 +134,7 @@ elif sidebar_var == "EDA":
 elif sidebar_var == "Author":
     pass
     st.subheader("Author info")
-    url_profile = "web_imges\profile.png"
+    url_profile = "profile.png"
     st.image(url_profile,width=500,channels="RGB")
     st.markdown("## :blue[Meet Your Favourite Date Scientist]")
     st.markdown("**- Khaled Shaker : ITI Trainee, Versatile data scientist with a Radiology and medical imaging**")
