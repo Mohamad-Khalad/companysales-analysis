@@ -36,8 +36,7 @@ sns.set()
 # selectbox1 = st.selectbox("Select",["a","b","c"])
 # st.slider("select",0,100)
 
-df = pd.read_csv(r"E:\DATA SCIENCE GEEK\ITI Intensive Camp\PowerBI Cairo 2024\1.Python\4.Python_Day_4\Python - DataCleaning-20240529T153753Z-001\all_data.csv",encoding= 'iso-8859-1')
-
+df = pd.read_csv("https://raw.githubusercontent.com/khaledshakerrr/companysales-analysis/main/company_all_data.csv.csv",encoding= 'iso-8859-1')
 # btn = st.button("Show Data")
 # if btn:
 #         st.dataframe(df.sample(5))
