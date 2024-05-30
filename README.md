@@ -4,4 +4,6 @@ This project aims to analyze company sales behavior using the Online dataset and
  ![Order Date Time Series](https://github.com/khaledshakerrr/companysales/blob/main/png%20plots/timeseries%20plot.png) 
 - `Grand Total Amount of all countries per month`
  ![Grand Total Amount of all countries per month](https://github.com/khaledshakerrr/companysales/blob/main/png%20plots/plot1.png)
+![boxplot](https://github.com/khaledshakerrr/companysales/blob/main/png%20plots/boxplot.png)
+![barchart](https://github.com/khaledshakerrr/companysales/blob/main/png%20plots/barchart.png)
 
